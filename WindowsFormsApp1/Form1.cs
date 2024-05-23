@@ -29,9 +29,9 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" & textBox2.Text == "") 
+            if (textBox1.Text == "admin" & textBox2.Text == "123") 
             {
-                Form2 My_Form = new Form2();
+                Form4 My_Form = new Form4();
                 My_Form.Show();
             }
         }
